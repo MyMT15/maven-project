@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: running a shell commad
-        run: echo "this is my first CICD with Github actions"
+        run: echo "this is my 1st CICD with Github actions"
   job2:
     runs_on:
     steps:
