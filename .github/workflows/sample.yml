@@ -2,10 +2,10 @@ name: sample-pipeline
 on:
   push:
     branches:
-      - master
+      - ram
   pull_request:
     branches:
-      - master
+      - ram
   workflow_dispatch:
 jobs:
   job1:
