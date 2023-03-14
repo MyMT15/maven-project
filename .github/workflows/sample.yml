@@ -15,7 +15,7 @@ jobs:
       - name: running a shell commad
         run: echo "this is my 1st CICD with Github actions"
   job2:
-    runs_on:
+    runs_on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: building the docker image
