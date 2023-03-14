@@ -19,4 +19,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: building the docker image
-        run: docker build . --file Dockerfile --tag dock1
+        run: docker build . --file new-dockerfile --tag dock1
