@@ -9,13 +9,13 @@ on:
   workflow_dispatch:
 jobs:
   job1:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: running a shell commad
         run: echo "this is my 1st CICD with Github actions"
   job2:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: building the docker image
